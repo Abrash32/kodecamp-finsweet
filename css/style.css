@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+}
+.mainheader .logo{
+    padding-top: 10px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+}
+.right-section ul{
+    list-style: none;
+    display: flex;
+}
+.road-assistance{
+    display: flex;
+    padding-left: 10px;
+}
+.right-section ul li{
+    margin-right: 20px;
+}
+.right-section .navigation a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.right-section .navigation{
+    border-right: 2px solid rgb(211, 199, 199);
+}
+.road-assistance .imgsection{
+    margin-right: 10px;
+    padding-top: 5px;
+}
+.flex{
+    display: flex;
+}
+#landingpage .leftsection {
+    width: 45%;
+}
+#landingpage .imagesection{
+    width: 55%;
+}
+#landingpage{
+    padding: 50px 0;
+}
+#landingpage .imagesection{
+    background-image: url("../img/HeaderImage.png");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+}
+.leftsection h1{
+    font-size: 64px;
+}
+.orange{
+    background: #FF6433;
+border-radius: 12px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 40px;
+font-size: 18px;
+color: white;
+display: inline-block;
+margin-top: 35px;
+text-decoration: none;
+}
+.leftsection .imgbox{
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftsection .timetext{
+    width: 95%;
+}
+.time img
+{
+    width: 100%;
+}
+.time{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.timetext small{
+    color: #939191;
+    font-family: 'Manrope';
+    font-size: 16px;
+}
+#quotesection{
+    background: #E2E6E9;
+    padding: 80px 0;
+    min-height: 100vh;
+}
+#quotesection .firstsection{
+width: 47%;
+}
+
+#quotesection .ndsection{
+width: 50%;
+}
+
+#quotesection ul{
+    list-style: none;
+    padding: 0px;
+}
+#quotesection .firstsection h2{
+    margin-bottom:30px ;
+    font-weight: 800;
+    font-size: 58px;
+}
+#quotesection .firstsection .imagew{
+    width: 5%;
+    margin-right: 10px;
+}
+#quotesection .firstsection .imagew img{
+    width: 100%;
+}
+#quotesection .firstsection .fortext{
+    width: 60%;
+}
+.fortext p{
+    font-size: 16px;
+    font-style: normal;
+}
+.fortext h5{
+    font-size: 24px;
+}
+#quotesection .firstsection .work{
+    margin-bottom: 20px;
+}
+.firstsection .code{
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+.firstsection .plug a{
+    display: flex;
+    color: #1E1B1B;
+    text-decoration: none;
+}
+.firstsection .plug a p{
+    margin-right: 10px;
+}
+
+.firstsection .code .lol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+#quotesection .ndsection h3{
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+#quotesection .ndsection input {
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 17px; 
+}
+
+#roll1section{
+    padding: 70 0;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+#roll1section .processleft{
+    width: 40%;
+    margin-top:  150px;
+}
+
+#roll1section .processleft h2{
+    font-size: 58px;
+    font-weight: 600;
+    margin-top: 40px;
+    
+}
+
+#roll1section .processleft p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1E1B1B;
+opacity: 0.6;
+width: 60%;
+}
+
+#roll1section .processright{
+    width: 45% ;
+    margin-top: 100px;
+    margin-left: 60px;
+} 
+.processright ul li{
+    margin-right: 20px;
+}
+.processright ul{
+    list-style: none;
+    
+}
+.job{
+    display: flex;
+}
+
+#roll1section .processright .forimg{
+    width: 15%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#roll1section .processright .fortext{
+    width: 80%;
+}
+
+#roll1section .processright .forimg img{
+    width: 100%;
+}
+
+#roll1section .processright .forimg .line img{
+    width:  2px;
+}
+
+#roll1section .processright .fortext h3{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+#roll1section .processright .fortext p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #1E1B1B;
+    opacity: 0.6 ;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+#roll1section .processright ul li{
+    margin-bottom: 10px;
+}
+
+#offer{
+    padding: 80px 0;
+    background: #E2E6E9;
+    min-height: 100vh;
+}
+#offer h2, #offer h5{
+    text-align: center;
+}
+
+#offer .offering .offerbox{
+ background: white;
+ height: 232px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ width: 24%;
+ margin-bottom: 12px;
+}
+
+#offer .offering{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#offer .offering .offerbox:hover{
+background: #FF6433;
+color: white;
+cursor: pointer;
+}
+
+.learn-arrow{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.learn-arrow a{
+    display: flex;
+    color: #1E1B1B;
+    text-decoration: none;
+}
+.learn-arrow a p{
+    margin-right: 10px;
+}
+#offer h2{
+    font-size: 58px;
+    font-weight: 800;
+}
+#offer p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#touch {
+    min-height: 35vh;
+    display: flex;
+}
+
+#touch .carsection{
+    width: 18%;
+    min-height: 35vh;
+    background: url("../img/carsec.png"), no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#touch .orange-section{
+    width: 37%;
+    background: #FF6433;
+    min-height: 35vh;
+}
+#touch .toolssecion{
+    width: 45%;
+    min-height: 35vh;
+    background: url("../img/tools.png"), no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+#touch .orange-section h2{
+
+font-size: 45px;
+font-weight: 700;
+
+text-align: center;
+align-items: center;
+  margin-top: 78px;
+  color: white;
+}
+
+#touch .orange-section .contact{
+    background: black;
+    border-radius: 12px;
+    padding: 16px 40px;
+    font-size: 18px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#touch .orange-section a{
+    text-decoration: none;
+    color: white;
+    font-weight:600, Bold;
+}
+
+#experience{
+    height: 210px;
+    background: lightgrey;
+    min-height: 15vh;
+
+}
+
+#experience .latee{
+    justify-content: space-between;
+}
+
+#experience .latee h2{
+    font-weight: 800;
+font-size: 58px;
+line-height: 76px;
+color: #661CE7;
+
+}
+
+#experience .latee p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#brand{
+    padding: 80px 0;
+    background: #FAFAFA;
+    min-height: 50vh;
+}
