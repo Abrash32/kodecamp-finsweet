@@ -7,6 +7,7 @@
     width: 80%;
     margin: 0 auto;
 }
+
 .mainheader{
     display: flex;
     justify-content: space-between;
@@ -311,7 +312,7 @@ cursor: pointer;
 }
 
 #touch {
-    min-height: 35vh;
+    min-height: 25vh;
     display: flex;
 }
 
@@ -326,11 +327,11 @@ cursor: pointer;
 #touch .orange-section{
     width: 37%;
     background: #FF6433;
-    min-height: 35vh;
+    min-height: 25vh;
 }
 #touch .toolssecion{
     width: 45%;
-    min-height: 35vh;
+    min-height: 25vh;
     background: url("../img/tools.png"), no-repeat;
     background-size: cover;
     background-position: right;
@@ -372,6 +373,7 @@ align-items: center;
 
 #experience .latee{
     justify-content: space-between;
+    margin: 20px;
 }
 
 #experience .latee h2{
@@ -391,5 +393,353 @@ color: #661CE7;
 #brand{
     padding: 80px 0;
     background: #FAFAFA;
-    min-height: 50vh;
+    min-height: 45vh;
 }
+
+#brand .brandimagesection{
+    display: flex;
+    flex-wrap: wrap;
+}
+#brand .brandimage{
+    width: 20%;
+}
+#brand .brandheader{
+font-size: 48px;
+font-weight: 700;
+line-height: 67px;
+
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+#aboutourservice{
+    padding: 80px 0;
+    background: lightgrey;
+    min-height: 100vh;
+    
+}
+
+#aboutourservice .jonathanandsmith{
+    margin-top: 70px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#aboutourservice .customer h3{
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+}
+
+#aboutourservice .jonathan{
+    background: white;
+    width: 48%;
+    padding: 40px;
+    border-radius: 10px;
+}
+#aboutourservice  .imgsec{
+    width: 15%;
+    margin-right: 15px;
+}
+
+#aboutourservice  .imgsec img{
+    width: 100%;
+}
+
+#aboutourservice  .word{
+    width: 90%;
+    margin-top: 5px;
+}
+
+#aboutourservice .word h4{
+    font-size: 24px;
+}
+
+#aboutourservice .word p{
+font-size: 16px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: #939191;
+}
+
+#aboutourservice .testimonies{
+    margin-top: 15px;
+}
+
+#aboutourservice .testimonies h3{
+    font-weight: 600;
+font-size: 24px;
+
+}
+#aboutourservice .smith{
+    background: white;
+    width: 48%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#aboutourservice .forarrow{
+    margin-top: 10px;
+}
+
+#aboutourservice .forarrow .leftarrow{
+ margin-top: 7px;
+
+}
+
+#aboutourservice .forarrow .rightarrow{
+    margin-left: 10px;
+}
+
+#frequently{
+    display: flex;
+    min-height: 100vh;
+    padding: 8% 0;
+    background: #E2E6E9;
+    justify-content: center;
+    
+}
+
+#frequently .firstbox {
+    justify-content: space-between;
+  width: 60%;
+  height: 30%;
+  background-color: white;
+  margin: auto;
+  padding: 30px;
+  margin-bottom: 1%;
+}
+
+.textforfirst{
+    width: 80%;
+}
+
+.textforfirst h4{
+font-size: 24px;
+font-weight: 600;
+padding-bottom: 10px;
+}
+
+.textforfirst p{
+    font-weight: 600;
+font-size: 14px;
+color: #939191;
+line-height: 1.5;
+}
+
+.sign-box{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #FF6433;
+  cursor: pointer;
+  padding: 0;
+}
+.sign-box span{
+    color: white;
+    justify-content: flex-end;
+}
+
+.amongthem{
+    justify-content: space-between;
+    width: 60%;
+    height: 20%;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 1%;
+}
+.forsecond h4{
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+}
+ 
+#frequently .faq .askquestion{
+    
+   text-align: center;
+margin-bottom: 40px;
+}
+
+.askquestion{
+    font-weight: 700;
+font-size: 38px;
+}
+
+.firstfooter{
+    
+  min-height: 30vh;
+} 
+
+.firstcontainer{
+    background: #1E1B1B;
+    opacity: 0.98;
+  color: white;
+  padding: 8% 0;
+  
+} 
+
+ .leftfirstfooter{
+    width: 45%;
+}
+
+ .rightfirstfooter{
+    width: 45%;
+}
+
+/*.delay{
+    justify-content: space-around;
+}*/
+
+.firstfooter .leftfirstfooter h2{
+    font-weight: 700;
+font-size: 48px;
+line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.firstfooter .leftfirstfooter .links{
+    width: 40%;
+  justify-content: space-around;
+}
+
+.firstfooter .leftfirstfooter .links .facebook,
+.firstfooter .leftfirstfooter .links .twitter,
+.firstfooter .leftfirstfooter .links .instagram,
+.firstfooter .leftfirstfooter .links .linkedin{
+    width: 15%;
+}
+
+.facebook img, .twitter img, .instagram img, .linkedin img{
+    width: 70%;
+  }
+
+  .rightfirstfooter p{
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .rightfirstfooter h5{
+    font-size: 24px;
+    margin-top: 15px;
+  }
+
+  .Help, .Address, .open{
+      margin-bottom: 30px;
+  }
+   
+  /*.firstcontainer{
+      width: 70%;
+      margin: auto;
+  } */
+  .mainfooter{
+      background: #1E1B1B;
+      min-height: 10vh;
+ 
+  }
+
+  .folowing li{
+      list-style: none;
+      margin-right: 40px;
+  }
+  .folowing ul{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      
+  }
+  .folowing ul a{
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+     
+  }
+
+.second-container{
+    justify-content: space-between;
+    padding: 20px 5px;
+    width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.footerlogo{
+    padding-top: 10px;
+}
+
+.footer-links{
+    padding: 15px;
+}
+
+.footer-links li{
+    margin-left: 10px;
+    list-style: none;
+  }
+  .footer-links li a{
+    text-decoration:none;
+    color: white;
+  }
+  .footer-links li a:hover{
+    color: #FF6433;
+  }
+  .wordings p{
+    color: #939191;
+    font-size: 14px;
+  }
+
+  .wordings{
+      margin-left: 30px;
+  }
+
+  /*Media Query for Mobile */
+@media (max-width: 450px) {
+    .header{
+      align-items: flex-start;
+    }
+      
+     html, body {
+       max-width: 100%;
+       overflow-x: hidden;
+      }
+
+      .container {
+        width: 100%;
+      }
+      
+      .flex-direction {
+        flex-direction: column;
+      }
+      .roadassistance {
+        padding: 10px 0;
+      }
+
+      .right-section {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+      }
+        
+        .right-section .navigation {
+        width: 100%;
+        border: none;
+      }
+
+      .rightside .navigation ul {
+        flex-direction: column;
+      }
+    
+      .right-section ul li {
+        margin-right: 0;
+        padding: 10px 0;
+      }
+    
+      .right-section ul li a {
+        display: block;
+      }
