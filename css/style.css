@@ -702,6 +702,7 @@ line-height: 1.5;
 
   /*Media Query for Mobile */
 @media (max-width: 426px) {
+
 .mainheader {
     flex-direction: column;
     align-items: flex-start;
@@ -715,6 +716,7 @@ line-height: 1.5;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    display: none;
 }
 
 .right-section .navigation{
@@ -795,5 +797,28 @@ width: 100%;
 #roll1section .processright .fortext h3{
     padding: 0;
 }
+
+#offer .offering {
+    flex-direction: column;
+}
+
+#offer .offering .offerbox {
+
+width: 100%;
+}
+
+#offer h5 {
+font-size: 30px;
+}
+
+#offer h2 {
+    font-size: 25px;
+}
+
+#offer p {
+    font-size: 15px;
+}
+
+
 
 }
