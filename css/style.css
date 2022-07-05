@@ -315,12 +315,12 @@ cursor: pointer;
 }
 
 #touch {
-    min-height: 25vh;
+    min-height: 512px;
     display: flex;
 }
 
 #touch .carsection{
-    width: 18%;
+    width: 20%;
     min-height: 35vh;
     background: url("../img/carsec.png"), no-repeat;
     background-size: cover;
@@ -637,15 +637,23 @@ line-height: 1.5;
       margin-bottom: 30px;
   }
    
+.mainfooter{
+    background: #1E1B1B;
+      min-height: 10vh;
+      width: 100%;
+      
+}
+
   /*.firstcontainer{
       width: 70%;
       margin: auto;
-  } */
-  .mainfooter{
+  } 
+  .container .mainfooter{
       background: #1E1B1B;
       min-height: 10vh;
+      width: 100%;
  
-  }
+  } */
 
   .folowing li{
       list-style: none;
@@ -664,13 +672,17 @@ line-height: 1.5;
      
   }
 
-.second-container{
+/*.second-container{
     justify-content: space-between;
-    padding: 20px 5px;
-    width: 80%;
-  margin: auto;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+
   justify-content: space-between;
-}
+  width: 100%;
+  background-color: #1E1B1B;
+
+}*/
 
 .footerlogo{
     padding-top: 10px;
@@ -819,6 +831,78 @@ font-size: 30px;
     font-size: 15px;
 }
 
+#touch .carsection, #touch .orange-section, #touch .toolssecion {
+    width: 100%;
+}
 
+#touch {
+    flex-direction: column;
+    min-height: 0px;
+}
+
+#touch .orange-section {
+    height: 150px;
+}
+
+#touch .orange-section h2{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#touch .orange-section .contact{
+     margin: 10px 70px;
+}
+
+#experience .latee h2{
+    font-size: 35px;
+    line-height: 2rem;
+}
+
+#experience .latee p{
+    font-size: 20px;
+}
+
+#brand .brandheader{
+    font-size: 30px;
+}
+
+#brand .brandimagesection{
+    flex-direction: column;
+}
+
+#aboutourservice .customer h3{
+    font-size: 25px;
+}
+
+#aboutourservice .jonathan, #aboutourservice .smith, 
+#frequently .firstbox, .amongthem, .leftfirstfooter, .rightfirstfooter{
+    width: 100%;
+}
+
+#aboutourservice .smith{
+    margin-top: 20px;
+}
+
+#frequently .faq .askquestion{
+    font-size: 35px;
+}
+
+.amongthem{
+    margin: 20px 0;
+    height: 15%;
+}
+.firstfooter .leftfirstfooter h2{
+    font-size: 35px;
+}
+
+.rightfirstfooter h5{
+    font-size: 20px;
+}
+
+/*
+.lowerheight{
+    height: 15%;
+}
+*/
 
 }
