@@ -899,6 +899,24 @@ font-size: 30px;
     font-size: 20px;
 }
 
+.mainheader{
+    padding: 10px 0;
+}
+
+.footer-links{
+    padding: 0px;
+}
+
+.folowing ul{
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+}
+
+.footerlogo{
+    margin: 0 30px;
+}
+
 /*
 .lowerheight{
     height: 15%;
